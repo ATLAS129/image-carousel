@@ -1,0 +1,35 @@
+:root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+img {
+  border-radius: 35px;
+}
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #f3f3f3;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+}
